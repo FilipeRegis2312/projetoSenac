@@ -1,0 +1,103 @@
+html, body{
+	height: 100%;
+}
+
+body{
+	position: relative;
+	background: linear-gradient(to right, rgb(44, 62, 80), rgb(76, 161, 175));
+	letter-spacing: 0;
+	font-weight: normal;
+	font-style: normal;
+	font-size: 13px;
+	line-height: 1.5;
+	direction: ltr;
+	margin: 0px;
+	padding: 0px;
+	font-family: 'Roboto','Open Sans','Lato', sans-serif;
+}
+
+.site-wrap{
+	position: relative;
+	overflow: hidden;
+	min-height: 100%;
+}
+
+.header-wrap{
+	position: fixed;
+	max-height: 80px;
+	height: 80px;
+	width: 100%;
+	background: linear-gradient(to bottom, rgb(195, 222, 247), rgb(126, 138, 150)) !important;
+	z-index: 101;
+}
+
+.site-header{
+	margin-top: 5px;
+	height: 70px;
+}
+
+.font-header{
+	color: white;
+	font-size: 15px;
+}
+
+.font-menu-header{
+	color: black;
+	font-size: 25px;
+}
+
+.button-Style{
+	width: 110px;
+}
+
+.button-padding-top{
+	margin-top: 10px;
+	margin-bottom: 10px
+}
+
+.padding-Header{
+	padding-top: 80px;
+}
+
+.sub-Header{
+	background: white;
+	height: 50px;	
+	z-index: 110;
+	position: fixed;
+	width: 100%;
+	border-top: 3px solid #c9302c !important;
+	border-bottom: 3px solid #c9302c !important;
+}
+
+.teste{
+	padding-top: 50px;
+}
+
+.main{
+	min-height: 1000px;
+	height: 100%;
+	width: 100%;
+	background: #fff;
+}
+
+.menu-body {
+	position: fixed;
+	height: 1000px;
+	background: lightblue;
+	z-index: 100000;
+}
+
+.section-body{	
+	padding-left: 18%;
+}
+
+.footer{
+ width: 100%;
+ height: 40px;
+ background: blue;	
+ z-index: 100001;
+}
+
+.pb500{
+	padding-bottom: 60px;
+}
